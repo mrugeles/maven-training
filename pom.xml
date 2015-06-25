@@ -177,34 +177,4 @@
 			</plugin>
 		</plugins>
 	</reporting>
-
-	<repositories>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>central</id>
-			<name>libs-release</name>
-			<url>http://artifactory-local/artifactory/libs-release</url>
-		</repository>
-		<repository>
-			<snapshots />
-			<id>snapshots</id>
-			<name>libs-snapshot</name>
-			<url>http://artifactory-local/artifactory/libs-snapshot</url>
-		</repository>
-	</repositories>
-
-	<distributionManagement>
-		<repository>
-			<id>artifactory-releases</id>
-			<name>libs-release-local</name>
-			<url>http://artifactory-local/artifactory/libs-release-local</url>
-		</repository>
-		<snapshotRepository>
-			<id>artifactory-snapshots</id>
-			<name>libs-snapshot-local</name>
-			<url>http://artifactory-local/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
